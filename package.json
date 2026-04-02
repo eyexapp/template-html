@@ -1,0 +1,16 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve src --listen 3000 --cors",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.0",
+    "jsdom": "^26.1.0"
+  }
+}

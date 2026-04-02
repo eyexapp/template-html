@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+.git/
+.DS_Store
+*.md
+tests/
+vitest.config.js
+package*.json
+.editorconfig
+.gitignore
+.env*
+.vscode/
+.github/
+.cursorrules

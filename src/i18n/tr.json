@@ -1,0 +1,15 @@
+{
+  "hero.title": "MyApp'e Hoş Geldiniz",
+  "hero.description": "Web Components, CSS Cascade Layers, Design Tokens ve ES Modules ile üretim kalitesinde vanilla HTML/CSS/JS şablonu.",
+  "nav.home": "Ana Sayfa",
+  "nav.about": "Hakkında",
+  "cards.webcomponents.title": "Web Components",
+  "cards.webcomponents.description": "Kapsüllenmiş, yeniden kullanılabilir UI için Shadow DOM ile Custom Elements.",
+  "cards.csslayers.title": "CSS Layers",
+  "cards.csslayers.description": "Öngörülebilir specificity için Cascade Layers.",
+  "cards.esmodules.title": "ES Modules",
+  "cards.esmodules.description": "Yerel JavaScript modülleri — bundler gerekmez.",
+  "footer.copyright": "Tüm hakları saklıdır.",
+  "error.404.title": "Sayfa bulunamadı.",
+  "error.404.action": "Ana Sayfaya Dön"
+}

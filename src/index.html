@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A modern vanilla HTML/CSS/JS application template." />
+  <title>MyApp</title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body class="page">
+
+  <app-header site-name="MyApp">
+    <theme-toggle></theme-toggle>
+  </app-header>
+
+  <main class="container section">
+    <div class="stack">
+      <h1>Welcome to MyApp</h1>
+      <p class="text-lg text-muted">
+        A production-ready vanilla HTML/CSS/JS template with Web Components,
+        CSS Cascade Layers, Design Tokens, and ES Modules.
+      </p>
+
+      <div class="grid mt-8">
+        <div class="card">
+          <h3>Web Components</h3>
+          <p class="text-muted mt-4">
+            Custom Elements with Shadow DOM for encapsulated, reusable UI.
+          </p>
+        </div>
+        <div class="card">
+          <h3>CSS Layers</h3>
+          <p class="text-muted mt-4">
+            Cascade Layers for predictable specificity — tokens, reset, layouts, utilities, components.
+          </p>
+        </div>
+        <div class="card">
+          <h3>ES Modules</h3>
+          <p class="text-muted mt-4">
+            Native JavaScript modules — no bundler required.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <app-footer site-name="MyApp"></app-footer>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

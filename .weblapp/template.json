@@ -1,0 +1,29 @@
+{
+  "name": "html",
+  "displayName": "HTML Static Site",
+  "description": "Static HTML/CSS/JavaScript website template with responsive design",
+  "category": "frontend",
+  "language": "html",
+  "framework": "vanilla",
+  "stack": ["html", "css", "javascript"],
+  "features": ["responsive-design", "static-site", "no-build"],
+  "commands": {},
+  "packageManager": "none",
+  "ci": {
+    "workflowTemplate": "html",
+    "runner": "ubuntu-latest",
+    "runtime": {
+      "name": "node",
+      "version": "20",
+      "setup": "actions/setup-node@v4",
+      "cache": null
+    },
+    "services": {},
+    "steps": {
+      "install": "npm install -g htmlhint",
+      "build": null,
+      "test": null,
+      "lint": "htmlhint \"**/*.html\""
+    }
+  }
+}

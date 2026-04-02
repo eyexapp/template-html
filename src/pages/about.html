@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About MyApp — a modern vanilla web template." />
+  <title>About — MyApp</title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body class="page">
+
+  <app-header site-name="MyApp">
+    <theme-toggle></theme-toggle>
+  </app-header>
+
+  <main class="container section">
+    <div class="stack">
+      <h1>About</h1>
+      <p class="text-lg text-muted">
+        This template demonstrates how far you can go with zero build tools —
+        pure HTML, CSS, and JavaScript.
+      </p>
+
+      <h2 class="mt-8">Architecture</h2>
+      <ul class="stack--sm" style="list-style: disc; padding-left: var(--space-6);">
+        <li><strong>Web Components</strong> — Custom Elements + Shadow DOM for encapsulated UI</li>
+        <li><strong>CSS Cascade Layers</strong> — Predictable specificity via <code>@layer</code></li>
+        <li><strong>Design Tokens</strong> — All visual decisions in CSS Custom Properties</li>
+        <li><strong>ES Modules</strong> — Native <code>import/export</code>, no bundler needed</li>
+        <li><strong>Pub/Sub State</strong> — Minimal reactive state management</li>
+        <li><strong>i18n</strong> — JSON-based translations with runtime loading</li>
+      </ul>
+    </div>
+  </main>
+
+  <app-footer site-name="MyApp"></app-footer>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

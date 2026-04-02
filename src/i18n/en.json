@@ -1,0 +1,15 @@
+{
+  "hero.title": "Welcome to MyApp",
+  "hero.description": "A production-ready vanilla HTML/CSS/JS template with Web Components, CSS Cascade Layers, Design Tokens, and ES Modules.",
+  "nav.home": "Home",
+  "nav.about": "About",
+  "cards.webcomponents.title": "Web Components",
+  "cards.webcomponents.description": "Custom Elements with Shadow DOM for encapsulated, reusable UI.",
+  "cards.csslayers.title": "CSS Layers",
+  "cards.csslayers.description": "Cascade Layers for predictable specificity.",
+  "cards.esmodules.title": "ES Modules",
+  "cards.esmodules.description": "Native JavaScript modules — no bundler required.",
+  "footer.copyright": "All rights reserved.",
+  "error.404.title": "Page not found.",
+  "error.404.action": "Go Home"
+}
